@@ -12,5 +12,3 @@ namespace DatingApp.API.Dtos
         public string Password { get; set; }
     }
 }
-
-//test

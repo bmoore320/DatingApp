@@ -74,14 +74,9 @@ namespace DatingApp.API.Controllers
             return Ok(new {
                 token = tokenHandler.WriteToken(token)
             });
-
-
-        }
+        } 
     }
 }
-
-
-
 
 
 

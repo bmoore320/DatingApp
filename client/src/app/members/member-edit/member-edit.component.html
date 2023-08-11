@@ -66,10 +66,13 @@
                         <input type="text" [(ngModel)]="member.country" name="country" class="form-control mx-2">
                     </div>
                 </form>
-
             </tab>
             <tab heading="Edit Photos">
-                <p>Photo edit will here</p>
+                <app-photo-editor [member]="member"></app-photo-editor>
+                <!-- 
+                    [member] = the child component property (decorded with @Input)
+                    "member" = the name of parent component property (from ths .ts file of this component) 
+                -->
             </tab>
         </tabset>
     </div>
